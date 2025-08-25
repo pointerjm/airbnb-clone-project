@@ -54,3 +54,12 @@ Key entities and fields:
 - A **Booking** belongs to a **Property** and is made by a **User**.  
 - A **Review** is linked to both a **Property** and a **User**.  
 - A **Payment** is tied to a **Booking**.
+
+
+## Feature Breakdown
+- **User Management**: Provides user registration, authentication, and profile management.  
+- **Property Management**: Allows hosts to add, update, and delete properties.  
+- **Booking System**: Enables guests to book properties, manage dates, and handle check-in/out.  
+- **Payment Processing**: Integrates secure payment transactions for bookings.  
+- **Review System**: Lets users leave ratings and comments for properties.  
+- **Database Optimization**: Ensures high performance through indexing and caching.
