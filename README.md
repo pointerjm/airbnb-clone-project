@@ -75,3 +75,17 @@ Key entities and fields:
 - **Protecting User Data**: Safeguards sensitive information like emails and passwords.  
 - **Securing Payments**: Prevents fraud and ensures safe transactions.  
 - **Maintaining Trust**: Users must trust the platform with their personal and financial data.
+
+
+## CI/CD Pipeline
+**Continuous Integration (CI)** ensures new code is automatically tested and merged.  
+**Continuous Deployment (CD)** delivers the tested code to production.  
+
+### Tools
+- **GitHub Actions**: Automates builds, tests, and deployments.  
+- **Docker**: Provides consistent containerized environments.  
+
+### Importance
+- Speeds up development cycles.  
+- Reduces deployment errors.  
+- Ensures stable and reliable releases.
