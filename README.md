@@ -63,3 +63,15 @@ Key entities and fields:
 - **Payment Processing**: Integrates secure payment transactions for bookings.  
 - **Review System**: Lets users leave ratings and comments for properties.  
 - **Database Optimization**: Ensures high performance through indexing and caching.
+
+
+## API Security
+- **Authentication**: JWT or OAuth2 ensures only valid users access the system.  
+- **Authorization**: Role-based access (admin, host, guest) restricts sensitive actions.  
+- **Rate Limiting**: Prevents API abuse by limiting requests per user.  
+- **Data Protection**: Password hashing, secure payment handling, and encrypted communication.  
+
+### Why Security Matters
+- **Protecting User Data**: Safeguards sensitive information like emails and passwords.  
+- **Securing Payments**: Prevents fraud and ensures safe transactions.  
+- **Maintaining Trust**: Users must trust the platform with their personal and financial data.
