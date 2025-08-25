@@ -38,3 +38,19 @@ The Airbnb Clone backend project provides a robust and scalable foundation for m
 - **Redis**: Caching and session management.  
 - **Docker**: Containerization for consistent environments.  
 - **GitHub Actions**: Automates testing and deployment pipelines.
+
+
+## Database Design
+Key entities and fields:  
+
+- **Users**: `id`, `name`, `email`, `password`  
+- **Properties**: `id`, `owner_id`, `title`, `location`, `price`  
+- **Bookings**: `id`, `property_id`, `user_id`, `start_date`, `end_date`  
+- **Reviews**: `id`, `property_id`, `user_id`, `rating`, `comment`  
+- **Payments**: `id`, `booking_id`, `amount`, `status`, `created_at`  
+
+### Relationships
+- A **User** can own multiple **Properties**.  
+- A **Booking** belongs to a **Property** and is made by a **User**.  
+- A **Review** is linked to both a **Property** and a **User**.  
+- A **Payment** is tied to a **Booking**.
