@@ -27,3 +27,14 @@ The Airbnb Clone backend project provides a robust and scalable foundation for m
 - **Database Administrator**: Designs and optimizes the database, manages indexes, and ensures data integrity.  
 - **DevOps Engineer**: Handles deployment, scaling, CI/CD pipelines, and monitoring.  
 - **QA Engineer**: Tests backend functionalities, ensures stability, and maintains quality standards.
+
+
+## Technology Stack
+- **Django**: High-level Python framework for backend APIs.  
+- **Django REST Framework (DRF)**: RESTful API support.  
+- **PostgreSQL**: Relational database for structured data.  
+- **GraphQL**: Flexible and efficient query language.  
+- **Celery**: Handles asynchronous tasks like notifications and payments.  
+- **Redis**: Caching and session management.  
+- **Docker**: Containerization for consistent environments.  
+- **GitHub Actions**: Automates testing and deployment pipelines.
